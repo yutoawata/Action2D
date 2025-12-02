@@ -19,7 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Main\GameManager.cpp" />
     <ClCompile Include="Source\Main\Main.cpp" />
+    <ClCompile Include="Source\Map\Dungeon.cpp" />
+    <ClCompile Include="Source\Math\MathMethod.cpp" />
+    <ClCompile Include="Source\Math\Vector2.cpp" />
+    <ClCompile Include="Source\Player\Visibility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Main\GameManager.h" />
+    <ClInclude Include="Source\Map\Dungeon.h" />
+    <ClInclude Include="Source\Math\MathMethod.h" />
+    <ClInclude Include="Source\Math\Vector2.h" />
+    <ClInclude Include="Source\Player\Visibility.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
