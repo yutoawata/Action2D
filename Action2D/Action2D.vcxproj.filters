@@ -4,10 +4,51 @@
     <Filter Include="Main">
       <UniqueIdentifier>{078747cd-04a3-4bc2-b721-d3e21e120af4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{73d053f3-6752-4f61-a8d1-abf3c31a22c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{38dbb894-9dba-4ce5-ae2f-cef49b1160e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{0aa5bfa9-8c51-499b-ac52-742fafbaec1a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Main\Main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Math\Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\Dungeon.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Visibility.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main\GameManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\MathMethod.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Math\Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map\Dungeon.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\Visibility.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Main\GameManager.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\MathMethod.h">
+      <Filter>Math</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
